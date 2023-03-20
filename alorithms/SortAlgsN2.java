@@ -1,6 +1,6 @@
 package org.alorithms;
 
-public class SortAlgs {
+public class SortAlgsN2 {
     private final int arraySize = 10;
     private final int[] arr = new int[arraySize];
 
@@ -58,7 +58,7 @@ public class SortAlgs {
     }
 
     public static void main(String[] args){
-        SortAlgs array = new SortAlgs();
+        SortAlgsN2 array = new SortAlgsN2();
         array.generateRandomArray();
         array.printArray();
         array.selectionSort();
