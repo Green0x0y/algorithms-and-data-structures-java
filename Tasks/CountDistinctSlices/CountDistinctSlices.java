@@ -17,9 +17,7 @@ public class CountDistinctSlices {
             seen[A[right]] = true;
             count += (right - left + 1);
             right++;
-            if (count > 1000000000) {
-                return 1000000000;
-            }
+
         }
 
             return count;
