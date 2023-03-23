@@ -1,4 +1,4 @@
-package org.Tasks.TopThree;
+package org.Tasks.Bot.TopThree;
 //Napisz funkcję, która przyjmuje tablicę liczb całkowitych
 //        i zwraca sumę trzech największych liczb z tej tablicy.
 import java.util.Arrays;

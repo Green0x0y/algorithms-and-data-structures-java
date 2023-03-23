@@ -1,4 +1,4 @@
-package org.Tasks.StringSort;
+package org.Tasks.Bot.StringSort;
 //Napisz metodę sortowania przez wstawianie (insertion sort) dla tablicy napisów,
 // ale tak aby sortowanie odbywało się alfabetycznie od tyłu (tzn. od końca do początku).
 // Twoje zadanie polega na napisaniu metody sortInsertionReverse(String[] arr),

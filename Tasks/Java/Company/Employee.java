@@ -1,4 +1,4 @@
-package org.Tasks.Company;
+package org.Tasks.Java.Company;
 
 public class Employee {
     private String name;

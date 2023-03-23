@@ -1,4 +1,4 @@
-package org.Tasks.CountDistinctSlices;
+package org.Tasks.Bot.CountDistinctSlices;
 //Mamy dany ciąg liczb całkowitych A o długości N. Liczby w ciągu są nie większe niż M. Należy znaleźć liczbę różnych podciągów ciągu A.
 //Na przykład, dla A = [3,4,5,5,2] i M = 6, funkcja powinna zwrócić 9, ponieważ istnieją 9 różnych podciągów:
 //[3], [4], [5], [3,4], [4,5], [3,4,5], [5,5], [4,5,5], [3,4,5,5].
