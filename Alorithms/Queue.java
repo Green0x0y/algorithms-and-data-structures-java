@@ -1,4 +1,4 @@
-package org.alorithms;
+package org.Alorithms;
 
 import java.util.Arrays;
 

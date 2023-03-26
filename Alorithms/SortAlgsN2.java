@@ -1,4 +1,4 @@
-package org.alorithms;
+package org.Alorithms;
 
 public class SortAlgsN2 {
     private final int arraySize = 10;

@@ -1,4 +1,4 @@
-package org.alorithms;
+package org.Alorithms;
 
 public class BinSearch {
     public static int binarySearch(int[] arr, int left, int right, int num ){
