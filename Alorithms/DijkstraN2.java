@@ -3,10 +3,11 @@ package org.Alorithms;
 import java.lang.*;
 
 public class DijkstraN2 {
-    int minDist(int[] dist, Boolean[] sptSet, int vertices){
-        int min = Integer.MAX_VALUE, min_index = 1;
+    int minDist(int[] dist, Boolean[] visited, int vertices){
+        int min = Integer.MAX_VALUE;
+        int min_index = 1;
         for(int v =0; v < vertices; v++){
-            if(!sptSet[v] && dist[v] <=min){
+            if(!visited[v] && dist[v] <=min){
                 min = dist[v];
                 min_index = v;
             }
@@ -22,20 +23,20 @@ public class DijkstraN2 {
     }
     void dijkstra(int[][] graph, int src, int vertices) {
         int[] dist = new int[vertices];
-        Boolean[] sptSet = new Boolean[vertices];
+        Boolean[] visited = new Boolean[vertices];
         for (int i = 0; i < vertices; i++) {
             dist[i] = Integer.MAX_VALUE;
-            sptSet[i] = false;
+            visited[i] = false;
 
         }
         dist[src] = 0;
         for (int count = 0; count < vertices - 1; count++) {
-            int u = minDist(dist, sptSet, vertices);
-            sptSet[u] = true;
+            int u = minDist(dist, visited, vertices);
+            visited[u] = true;
             for (int v = 0; v < vertices; v++)
 
 
-                if (!sptSet[v] && graph[u][v] != 0
+                if (!visited[v] && graph[u][v] != 0
                         && dist[u] != Integer.MAX_VALUE
                         && dist[u] + graph[u][v] < dist[v])
                     dist[v] = dist[u] + graph[u][v];
@@ -46,8 +47,7 @@ public class DijkstraN2 {
 
     public static void main(String[] args)
     {
-        /* Let us create the example graph discussed above
-         */
+
         int[][] graph
                 = new int[][] { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
                 { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
@@ -60,7 +60,6 @@ public class DijkstraN2 {
                 { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
         DijkstraN2 t = new DijkstraN2();
 
-        // Function call
         t.dijkstra(graph, 0, 9);
 
     }
