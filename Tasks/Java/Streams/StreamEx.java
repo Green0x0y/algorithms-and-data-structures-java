@@ -12,10 +12,9 @@ public class StreamEx{
     public static void main(String[] args) {
         List<String> words = Arrays.asList("hello", "world", "example", "stream", "java");
 
-        List<Integer> wordLengths = words.stream()
-                .map(String::length)
-                .collect(Collectors.toList());
-        System.out.println(wordLengths);
+        List<Integer> lengths = words.stream()
+                .map(String::length).toList();
+        System.out.println(lengths);
 
         List<Integer> oddLengths = words.stream()
                 .map(String::length)

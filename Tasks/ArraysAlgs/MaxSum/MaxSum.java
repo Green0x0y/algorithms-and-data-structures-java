@@ -1,4 +1,4 @@
-package org.Tasks.Dynamic.MaxSum;
+package org.Tasks.ArraysAlgs.MaxSum;
 //Dana jest tablica n liczb całkowitych. Napisz funkcję, która zwróci wartość największej sumy podciągu (ang. subarray) tej tablicy.
 //
 // Na przykład, dla tablicy [1, -2, 3, 10, -4, 7, 2, -5], największą sumą podciągu jest 18,
