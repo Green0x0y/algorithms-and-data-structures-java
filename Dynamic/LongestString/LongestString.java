@@ -1,4 +1,4 @@
-package org.Tasks.Dynamic.LongestString;
+package org.Dynamic.LongestString;
 
 import java.util.HashSet;
 import java.util.Set;
