@@ -1,4 +1,4 @@
-package org.Tasks.Java.Bank;
+package org.Tasks.Java.File.Bank;
 
 import java.math.BigDecimal;
 import java.util.Date;
