@@ -6,6 +6,5 @@ ASD Java
 
 - recruitment tasks
 
-- tasks from chatGPT
 
-- object oriented programming course
+
