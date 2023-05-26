@@ -9,10 +9,12 @@ import static java.lang.Math.max;
 //z liczb nieparzystych. Do funkcji należy przekazać tablicę,
 // funkcja powinna zwrócić długość znalezionego
 //podciągu lub wartość 0 jeżeli taki podciąg nie istnieje
+
 public class LongestPalindrome {
-    // nieparzyste, palindrom, spójny np 1 3 3 1
+    // nieparzyste, palindrom, spójny np 1 3 3 1 
     public static int longest(int[] arr, int n){
         // 1 2 1 3 3 1 4 4 32 1
+        
         int maxLen = 0;
         for( int i = 0; i < n ; i ++){
             // nieparzyste
