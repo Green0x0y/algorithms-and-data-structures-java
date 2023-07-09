@@ -15,9 +15,9 @@ class Shopper extends Thread{
     @Override
     public void run() {
         while(itemsOnNotepad <= 20){
-            if (itemsToAdd > 0) {
+            if ((itemsToAdd > 0) && pencil.tryLock()) {
                 try{
-                    pencil.lock();
+
                     itemsOnNotepad += itemsToAdd;
                     System.out.println(this.getName() + " added " + itemsToAdd);
                     itemsToAdd = 0;
@@ -40,6 +40,17 @@ class Shopper extends Thread{
     }
 }
 public class TryLockDemo {
+    public static void main(String[] args) throws InterruptedException {
+        Thread barron = new Shopper("Barron");
+        Thread olivia = new Shopper("Olivia");
+        long start = System.currentTimeMillis();
+        barron.start();
+        olivia.start();
+        barron.join();
+        olivia.join();
+        long finish = System.currentTimeMillis();
+        System.out.println((double)(finish - start) /1000);
+    }
 
 
 }
