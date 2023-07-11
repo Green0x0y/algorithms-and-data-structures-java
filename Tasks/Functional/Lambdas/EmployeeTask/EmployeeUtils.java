@@ -1,4 +1,4 @@
-package org.Tasks.Streams.EmployeeTask;
+package org.Tasks.Functional.Lambdas.EmployeeTask;
 
 import java.util.function.Function;
 import java.util.function.Predicate;

@@ -1,4 +1,4 @@
-package org.Tasks.Streams.EmployeeTask;
+package org.Tasks.Functional.Lambdas.EmployeeTask;
 
 public class Employee {
 

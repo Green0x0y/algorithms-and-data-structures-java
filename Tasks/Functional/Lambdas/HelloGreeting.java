@@ -1,4 +1,4 @@
-package org.Tasks.Streams;
+package org.Tasks.Functional.Lambdas;
 
 public class HelloGreeting implements Greeting{
 

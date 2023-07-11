@@ -1,4 +1,4 @@
-package org.Tasks.Streams;
+package org.Tasks.Functional.Lambdas;
 
 import java.util.Random;
 import java.util.function.IntBinaryOperator;
