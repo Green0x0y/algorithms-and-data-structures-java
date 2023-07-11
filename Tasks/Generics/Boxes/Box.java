@@ -22,6 +22,12 @@ public class Box<T extends Boxable> {
         return items;
     }
 
+    public static<T extends Boxable> Box<T> of(T t){
+        Box<T> box = new Box<>();
+        box.addItem(t);
+        return box;
+    }
+
     @Override
     public String toString() {
         return "Box{" +

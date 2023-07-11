@@ -5,4 +5,8 @@ public class BoxUtils {
         return box.getItems().size();
 
     }
+
+    public static <T extends Boxable> Box<T> emptyBox(){
+        return new Box<>();
+    }
 }
