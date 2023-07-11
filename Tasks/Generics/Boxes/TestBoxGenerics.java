@@ -19,6 +19,6 @@ public class TestBoxGenerics {
         System.out.println(fruitBox.getLatestItem());
         System.out.println(fruitBox);
         System.out.println(BoxUtils.getCountofItems(fruitBox));
-        System.out.println(fruitBox.getTotalWeight());
+        System.out.println(bookBox.getTotalWeight());
     }
 }
