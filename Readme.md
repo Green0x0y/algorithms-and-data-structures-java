@@ -7,5 +7,6 @@ ASD Java
 
 - recruitment tasks
 
+- design patterns
 
 
