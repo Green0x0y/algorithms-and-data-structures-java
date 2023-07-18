@@ -1,4 +1,4 @@
-package org.Tasks.DesignPatterns.Fabryka;
+package org.Tasks.DesignPatterns.Fabric;
 
 public class ProductB implements Product{
 

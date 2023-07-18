@@ -1,4 +1,4 @@
-package org.Tasks.FizzBuzz;
+package org.Tasks.Bot.FizzBuzz;
 
 public class FizzBuzz {
     public static void fizzBuzz(){
