@@ -7,7 +7,7 @@ public class UIManager {
         userPreferences = UserPreferences.getInstance();
     }
     public void applyUserPreferences() {
-        String backgroundColor = userPreferences.getBackgroundColor();
+        String backgroundColor = userPreferences.getColor();
         String font = userPreferences.getFont();
         int windowSize = userPreferences.getWindowSize();
     }
